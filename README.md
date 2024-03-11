@@ -43,6 +43,20 @@ button.leadingIcon = UIImage(named: "leadingIcon")
 button.trailingIcon = UIImage(named: "trailingIcon")
 ```
 
+5. To use SwiftUIBrandButton in SwiftUI:
+
+```swift
+SwiftUIBrandButton(
+    style: .primary(BluePrimaryStyle()),
+    label: "Press me",
+    size: .full,
+    leadingIcon: UIImage(systemName: "apple.logo")?.withTintColor(.white, renderingMode: .alwaysOriginal)
+) {
+    print("Button tapped!")
+}
+```
+
+
 ## Customization
 
 You can create your own custom styles for BrandButton by conforming to the BrandStyle protocol and implementing the required properties. Here's how you can create a custom style similar to GreenPrimaryStyle:
