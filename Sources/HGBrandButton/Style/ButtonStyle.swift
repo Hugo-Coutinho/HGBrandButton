@@ -54,7 +54,7 @@ public enum ButtonStyle {
     
     public var disabledBackgroundColor: UIColor {
         switch self {
-        case .primary(let _):
+        case .primary(_):
             return .disabledColor
             
         case .secondary:
@@ -66,7 +66,7 @@ public enum ButtonStyle {
         switch self {
         case .primary:
             return .white
-        case .secondary(let _):
+        case .secondary(_):
             return .disabledColor
         }
     }
