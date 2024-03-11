@@ -19,8 +19,9 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "HGBrandButton"),
-        .testTarget(
-            name: "HGBrandButtonTests",
-            dependencies: ["HGBrandButton"]),
+        .target(name: "Demo",
+                dependencies: [
+                    "HGBrandButton"
+                ])
     ]
 )
