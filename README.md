@@ -1,3 +1,16 @@
+## BrandButton
+
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td style="text-align: center">
+                    <img src="https://github.com/Hugo-Coutinho/README-Assets/blob/master/Other/brandButtonExample.gif?raw=true" width="250" height="450"/>
+                </a>
+            </td>            
+        </tr>   
+    </table>
+</div>
+
 ## Usage
 
 To use BrandButton in your iOS project, follow these steps:
